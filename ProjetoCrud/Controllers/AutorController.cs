@@ -21,7 +21,7 @@ namespace ProjetoCrud.Controllers
             _autorInterface = autorInterface;
         }
 
-        [HttpGet("ListarAutores")]
+        [HttpGet("ListarAutoress")]
         //ActionResult pq ele pode nos retornar um 200, 404, 500 retorna um status code
         public async Task<ActionResult<ResponseModel<List<AutorModel>>>> ListarAutores()
         {
