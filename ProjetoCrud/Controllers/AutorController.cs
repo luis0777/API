@@ -9,7 +9,7 @@ using ProjetoCrud.Services.Autor;
 // Interface se conecta com o serviço 
 // Serviço que se conecta com o banco de dados, faz as solicitações, inserções, remoções etc
 
-namespace ProjetoCrud.Controllers
+
 {
     [Route("api/[controller]")]
     [ApiController]
